@@ -12,7 +12,7 @@ public class FirstUnique {
     public FirstUnique(int[] numbers) {
         data = new LinkedHashMap<>();
         for (int i: numbers) {
-            add(numbers[i]);
+            add(i);
         }
     }
 
